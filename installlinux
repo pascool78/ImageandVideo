@@ -1,0 +1,11 @@
+#!/bin/bash
+mkdir Super-simple-client-server-multiplayer-games-in-tkinter
+cd Super-simple-client-server-multiplayer-games-in-tkinter
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python3 get-pip.py
+curl -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/server.py
+curl -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/clienttk.py
+curl -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/1.ppm
+curl -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/2.ppm
+curl -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/requiment.txt
+sudo python3 -m pip install -r requiment.txt
