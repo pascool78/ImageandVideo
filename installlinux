@@ -5,10 +5,10 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo python3 get-pip.py
 wget https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/server.py
 wget https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/clienttk.py
-wget -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/requiment.txt
+wget https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/requiment.txt
 mkdir images
 cd images
-wget -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/1.ppm
-wget -O https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/2.ppm
+wget https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/1.ppm
+wget https://github.com/pascool78/Super-simple-client-server-multiplayer-games-in-tkinter/raw/master/bin/images/2.ppm
 cd ..
 sudo python3 -m pip install -r requiment.txt
